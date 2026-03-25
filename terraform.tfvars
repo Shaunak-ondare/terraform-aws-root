@@ -10,10 +10,10 @@ private_subnet_cidrs = ["10.0.101.0/24", "10.0.102.0/24"]
 availability_zones   = ["ap-south-1a", "ap-south-1b"]
 
 # --- EC2 ---
-ami_id        = "ami-0f58b397bc5c1f2e8" # Ubuntu 22.04 LTS (ap-south-1)
+ami_id        = "ami-05d2d839d4f73aafb" # Ubuntu 24.04 LTS (ap-south-1)
 instance_type = "t2.micro"
 instance_name = "my-ec2-instance"
-key_name    = "Mumbai.pem"            
+key_name    = "Mumbai"            
 
 # --- S3 ---
 bucket_name       = "shaunak-s3-multirepo-bucket-2326"
