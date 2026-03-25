@@ -27,5 +27,5 @@ db_instance_class    = "db.t3.micro"
 db_allocated_storage = 20
 db_name              = "myapp"
 db_username          = "admin"
-db_password          = "change-me-please!" # Use a secrets manager in production
+db_password          = "pass1234" # Use a secrets manager in production
 db_multi_az          = false
