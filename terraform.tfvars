@@ -16,7 +16,7 @@ instance_name = "my-ec2-instance"
 key_name    = "Mumbai.pem"            
 
 # --- S3 ---
-bucket_name       = "my-unique-bucket-name-12345"
+bucket_name       = "shaunak-s3-multirepo-bucket-2326"
 enable_versioning = true
 
 # --- RDS ---
